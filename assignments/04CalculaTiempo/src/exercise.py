@@ -3,7 +3,7 @@ def main():
     edad = int(input("Dame tu edad: " ))
     actual = int(input("Dame el año actual: " ))
     cien_años = actual - edad + 100
-    print ("Cumpliras 100 años en el año: " + str(cien_años))
+    print ("Cumplirás 100 años en el año: " + str(cien_años))
 
 
 
