@@ -2,8 +2,8 @@ def main():
     #escribe tu código abajo de esta línea
     edad = int(input("Ingresa tu edad:" ))
     actual = int(input("Ingresa el año actual:" ))
-    nacimiento = actual - edad
-    print (str(nacimiento) + " es tu año de nacimiento")
+    cien_años = actual - edad + 100
+    print ("Cumpliras 100 años en el año: " + str(cien_años))
 
 
 

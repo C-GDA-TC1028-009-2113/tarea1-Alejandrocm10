@@ -4,7 +4,8 @@ def main():
     peso_final = float(input("Ingresa el peso deseado en kilos: "))
     meses = int(input("Ingresa la cantidad de meses que estaras en el proceso: "))
     kg = (peso_inicial - peso_final)/meses
-    print (str(kg) + " kilos debes bajar por mes")
+    print ("lo que debes bajar por mes es: " + str(kg))
+
 
 
 if __name__ == '__main__':
